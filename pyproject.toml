@@ -1,0 +1,20 @@
+[project]
+name = "aws-log-pipeline"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "GIRIDHAR JS"}
+]
+requires-python = ">=3.11"
+dependencies = [
+    "boto3 (==1.42.75)",
+    "botocore (==1.42.79)",
+    "build (==1.4.2)",
+    "moto (==5.1.22)",
+    "pytest (==9.0.2)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
